@@ -1,0 +1,142 @@
+{
+	"variables": [],
+	"info": {
+		"name": "EnergyConsumptionAPICalls",
+		"_postman_id": "5c826b69-671a-63af-d9ff-1347f2b88a90",
+		"description": "This includes all the REST API calls \n1. For making a Counter Entry\n2. To record a Counter to a Village with Village Details\n3. To read each of the Counter Detail\n4. To read each of the Village Record\n5. To Find the Energy Consumption of Each Village for past 24 hrs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "All_Village_Details",
+			"request": {
+				"url": "http://localhost:8080/villages",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"villageId\" : 106,\n\t\"villageName\" : \"Testing\",\n\t\"counterId\" : 98\n}"
+				},
+				"description": "Provides All Village Details Associated"
+			},
+			"response": []
+		},
+		{
+			"name": "All_Counter_Details",
+			"request": {
+				"url": "http://localhost:8080/counters",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Provides All Counter Details Associated"
+			},
+			"response": []
+		},
+		{
+			"name": "To Create/Update Village Detail ",
+			"request": {
+				"url": "http://localhost:8080/energyConsumption/villageDetailsUpdate",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"villageId\" : 107,\n\t\"villageName\" : \"Frankfrut\",\n\t\"counterId\" : 101\n}"
+				},
+				"description": "If any new Village needs to be tagged with respective Counter "
+			},
+			"response": []
+		},
+		{
+			"name": "Counter_Callback_to_register_entry",
+			"request": {
+				"url": "http://localhost:8080/energyConsumption/counter_callback",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"counterId\": 101,\r\n    \"consumption\": 1000.67\r\n}"
+				},
+				"description": "This makes a POST Call and adds a new Entry to Counter"
+			},
+			"response": []
+		},
+		{
+			"name": "Consumption Report for past 24h",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8080/energyConsumption/consumption_report?duration=24h",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"energyConsumption",
+						"consumption_report"
+					],
+					"query": [
+						{
+							"key": "duration",
+							"value": "24h",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"counterId\": \"91\",\r\n    \"consumption\": 7894.56\r\n}"
+				},
+				"description": "Expected O/P to provide last 24 hr Energy Consumption Report of each Village\n\nAlso if 24 changed to someother hours - Reults will be provided with that"
+			},
+			"response": []
+		},
+		{
+			"name": "About Counter Details",
+			"request": {
+				"url": "http://localhost:8080/energyConsumption/counters/101",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"counterId\": \"91\",\r\n    \"consumption\": 7894.56\r\n}"
+				},
+				"description": "Provides detail of a Counter with Village Details"
+			},
+			"response": []
+		}
+	]
+}
