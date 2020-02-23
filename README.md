@@ -26,7 +26,7 @@ with few lines of code
 
 -Have accomplished JUnit Testing and Integration Testing on the end-to-end model
 
-Attached few REST API calls with the project which can be imported and can be hit directly via Postman:
+Attached few REST API calls with the project which can be imported and can be hit directly via Postman(Filename : EnergyConsumptionAPI.postman_collection.json):
 
 1. For making a Counter Entry
 2. To record a Counter to a Village with Village Details
