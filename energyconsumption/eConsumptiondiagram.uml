@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="797.0294018783152" y="0.0">com.vanhack.energyconsumption.web.EachVillageReport</node>
+    <node x="32.5" y="453.0">com.vanhack.energyconsumption.repository.VillageRepositoryTest</node>
+    <node x="1423.3966909901692" y="615.0">com.vanhack.energyconsumption.service.ConsumptionReportServiceIntegrationTest</node>
+    <node x="905.0633576568357" y="441.0">com.vanhack.energyconsumption.service.ConsumptionReportService</node>
+    <node x="472.0633576568357" y="430.0">com.vanhack.energyconsumption.web.ConsumptionReportController</node>
+    <node x="322.0" y="689.0">com.vanhack.energyconsumption.EnergyconsumptionApplication</node>
+    <node x="268.5" y="165.0">com.vanhack.energyconsumption.web.CounterDetails</node>
+    <node x="1526.625555724469" y="0.0">com.vanhack.energyconsumption.domain.Counter</node>
+    <node x="869.3133576568357" y="615.0">com.vanhack.energyconsumption.service.ConsumptionReportServiceUnitTest</node>
+    <node x="687.5" y="176.0">com.vanhack.energyconsumption.web.ConsumptionReports</node>
+    <node x="490.5000000000001" y="188.0">com.vanhack.energyconsumption.repository.VillageRepository</node>
+    <node x="1431.9711538461538" y="453.0">com.vanhack.energyconsumption.repository.CounterRepositoryTest</node>
+    <node x="204.0828206817339" y="0.0">com.vanhack.energyconsumption.domain.Village</node>
+    <node x="1111.8133576568357" y="188.0">com.vanhack.energyconsumption.repository.CounterRepository</node>
+    <node x="1296.8133576568357" y="165.0">com.vanhack.energyconsumption.EnergyConsumptionException</node>
+    <node x="0.0" y="689.0">com.vanhack.energyconsumption.EnergyconsumptionApplicationTests</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vanhack.energyconsumption.web.ConsumptionReportController" target="com.vanhack.energyconsumption.web.ConsumptionReports">
+      <point x="31.769230769230717" y="-37.5" />
+      <point x="710.3325884260664" y="310.0" />
+      <point x="816.5" y="310.0" />
+      <point x="43.0" y="26.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.web.ConsumptionReportController" target="com.vanhack.energyconsumption.repository.CounterRepository">
+      <point x="127.0769230769231" y="-37.5" />
+      <point x="805.6402807337588" y="340.0" />
+      <point x="1125.5633576568357" y="340.0" />
+      <point x="-68.75" y="14.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.repository.CounterRepositoryTest" target="com.vanhack.energyconsumption.repository.CounterRepository">
+      <point x="-64.33333333333326" y="-14.5" />
+      <point x="1464.1378205128206" y="360.0" />
+      <point x="1263.0633576568357" y="360.0" />
+      <point x="68.75" y="14.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.web.ConsumptionReports" target="com.vanhack.energyconsumption.web.EachVillageReport">
+      <point x="-43.0" y="-26.5" />
+      <point x="730.5" y="135.0" />
+      <point x="870.0294018783152" y="135.0" />
+      <point x="-73.0" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.service.ConsumptionReportService" target="com.vanhack.energyconsumption.repository.CounterRepository">
+      <point x="0.0" y="-26.5" />
+      <point x="1103.5633576568357" y="360.0" />
+      <point x="1180.5633576568357" y="360.0" />
+      <point x="-13.75" y="14.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.repository.CounterRepository" target="com.vanhack.energyconsumption.web.EachVillageReport">
+      <point x="-41.25" y="-14.5" />
+      <point x="1153.0633576568357" y="105.0" />
+      <point x="1016.0294018783152" y="105.0" />
+      <point x="73.0" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.web.ConsumptionReportController" target="com.vanhack.energyconsumption.domain.Village">
+      <point x="-190.61538461538464" y="-37.5" />
+      <point x="487.94797304145106" y="390.0" />
+      <point x="258.0" y="390.0" />
+      <point x="258.0" y="145.0" />
+      <point x="298.0828206817339" y="145.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.service.ConsumptionReportService" target="com.vanhack.energyconsumption.EnergyConsumptionException">
+      <point x="88.22222222222217" y="-26.5" />
+      <point x="1191.7855798790579" y="390.0" />
+      <point x="1420.8133576568357" y="390.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.service.ConsumptionReportServiceIntegrationTest" target="com.vanhack.energyconsumption.domain.Village">
+      <point x="-127.60000000000014" y="-14.5" />
+      <point x="1455.2966909901688" y="535.0" />
+      <point x="247.0" y="535.0" />
+      <point x="247.0" y="135.0" />
+      <point x="280.99191159082477" y="135.0" />
+      <point x="-17.090909090909122" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.service.ConsumptionReportService" target="com.vanhack.energyconsumption.domain.Village">
+      <point x="-88.22222222222217" y="-26.5" />
+      <point x="1015.3411354346135" y="260.0" />
+      <point x="666.0" y="260.0" />
+      <point x="666.0" y="125.0" />
+      <point x="366.44645704537027" y="125.0" />
+      <point x="68.36363636363637" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.service.ConsumptionReportServiceIntegrationTest" target="com.vanhack.energyconsumption.domain.Counter">
+      <point x="127.59999999999991" y="-14.5" />
+      <point x="1710.496690990169" y="595.0" />
+      <point x="1746.8844262018176" y="595.0" />
+      <point x="1746.8844262018176" y="105.0" />
+      <point x="1688.125555724469" y="105.0" />
+      <point x="76.5" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.service.ConsumptionReportServiceUnitTest" target="com.vanhack.energyconsumption.service.ConsumptionReportService">
+      <point x="0.0" y="-14.5" />
+      <point x="-99.25" y="26.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.web.ConsumptionReportController" target="com.vanhack.energyconsumption.web.CounterDetails">
+      <point x="-158.84615384615387" y="-37.5" />
+      <point x="519.7172038106819" y="380.0" />
+      <point x="319.0" y="380.0" />
+      <point x="-50.5" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.web.ConsumptionReportController" target="com.vanhack.energyconsumption.repository.VillageRepository">
+      <point x="-95.30769230769238" y="-37.5" />
+      <point x="583.2556653491433" y="410.0" />
+      <point x="559.2500000000001" y="410.0" />
+      <point x="-13.75" y="14.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.service.ConsumptionReportService" target="com.vanhack.energyconsumption.domain.Counter">
+      <point x="132.33333333333326" y="-26.5" />
+      <point x="1235.896690990169" y="400.0" />
+      <point x="1569.3473708658491" y="400.0" />
+      <point x="-42.5" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.service.ConsumptionReportService" target="com.vanhack.energyconsumption.repository.VillageRepository">
+      <point x="-132.33333333333337" y="-26.5" />
+      <point x="971.2300243235023" y="270.0" />
+      <point x="641.7500000000001" y="270.0" />
+      <point x="68.75" y="14.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.web.ConsumptionReportController" target="com.vanhack.energyconsumption.domain.Counter">
+      <point x="95.30769230769226" y="-37.5" />
+      <point x="773.871049964528" y="330.0" />
+      <point x="1044.271690990169" y="330.0" />
+      <point x="1044.271690990169" y="135.0" />
+      <point x="1535.125555724469" y="135.0" />
+      <point x="-76.5" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.repository.VillageRepositoryTest" target="com.vanhack.energyconsumption.domain.Village">
+      <point x="-48.25" y="-14.5" />
+      <point x="80.75" y="125.0" />
+      <point x="263.90100249991565" y="125.0" />
+      <point x="-34.181818181818244" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.repository.CounterRepositoryTest" target="com.vanhack.energyconsumption.domain.Counter">
+      <point x="64.33333333333326" y="-14.5" />
+      <point x="1592.804487179487" y="410.0" />
+      <point x="1591.3473708658491" y="410.0" />
+      <point x="1591.3473708658491" y="145.0" />
+      <point x="1603.125555724469" y="145.0" />
+      <point x="-8.5" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.service.ConsumptionReportServiceIntegrationTest" target="com.vanhack.energyconsumption.service.ConsumptionReportService">
+      <point x="-63.799999999999955" y="-14.5" />
+      <point x="1519.096690990169" y="525.0" />
+      <point x="1202.8133576568357" y="525.0" />
+      <point x="99.25" y="26.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.web.ConsumptionReportController" target="com.vanhack.energyconsumption.web.EachVillageReport">
+      <point x="-31.76923076923083" y="-37.5" />
+      <point x="646.7941268876049" y="290.0" />
+      <point x="677.0" y="290.0" />
+      <point x="677.0" y="125.0" />
+      <point x="821.3627352116486" y="125.0" />
+      <point x="-121.66666666666663" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.repository.CounterRepository" target="com.vanhack.energyconsumption.domain.Counter">
+      <point x="41.25" y="-14.5" />
+      <point x="1235.5633576568357" y="145.0" />
+      <point x="1552.125555724469" y="145.0" />
+      <point x="-59.5" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.service.ConsumptionReportServiceUnitTest" target="com.vanhack.energyconsumption.domain.Village">
+      <point x="-90.0" y="-14.5" />
+      <point x="914.3133576568357" y="585.0" />
+      <point x="11.0" y="585.0" />
+      <point x="11.0" y="105.0" />
+      <point x="229.71918431809752" y="105.0" />
+      <point x="-68.36363636363637" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.repository.VillageRepositoryTest" target="com.vanhack.energyconsumption.repository.VillageRepository">
+      <point x="48.25" y="-14.5" />
+      <point x="177.25" y="400.0" />
+      <point x="504.2500000000001" y="400.0" />
+      <point x="-68.75" y="14.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.repository.VillageRepository" target="com.vanhack.energyconsumption.domain.Village">
+      <point x="0.0" y="-14.5" />
+      <point x="573.0000000000001" y="135.0" />
+      <point x="349.35554795446114" y="135.0" />
+      <point x="51.27272727272725" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.web.ConsumptionReportController" target="com.vanhack.energyconsumption.EnergyConsumptionException">
+      <point x="190.61538461538464" y="-37.5" />
+      <point x="869.1787422722203" y="380.0" />
+      <point x="1338.146690990169" y="380.0" />
+      <point x="-82.66666666666674" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.service.ConsumptionReportServiceUnitTest" target="com.vanhack.energyconsumption.repository.CounterRepository">
+      <point x="30.0" y="-14.5" />
+      <point x="1034.3133576568357" y="545.0" />
+      <point x="1312.5633576568357" y="545.0" />
+      <point x="1312.5633576568357" y="370.0" />
+      <point x="1235.5633576568357" y="370.0" />
+      <point x="41.25" y="14.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.service.ConsumptionReportServiceIntegrationTest" target="com.vanhack.energyconsumption.EnergyConsumptionException">
+      <point x="0.0" y="-14.5" />
+      <point x="1582.8966909901692" y="545.0" />
+      <point x="1635.4711538461538" y="545.0" />
+      <point x="1635.4711538461538" y="380.0" />
+      <point x="1503.4800243235024" y="380.0" />
+      <point x="82.66666666666674" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.service.ConsumptionReportServiceUnitTest" target="com.vanhack.energyconsumption.domain.Counter">
+      <point x="60.0" y="-14.5" />
+      <point x="1064.3133576568357" y="555.0" />
+      <point x="1676.3473708658491" y="555.0" />
+      <point x="1676.3473708658491" y="145.0" />
+      <point x="1620.125555724469" y="145.0" />
+      <point x="8.5" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.web.CounterDetails" target="com.vanhack.energyconsumption.domain.Village">
+      <point x="-50.5" y="-37.5" />
+      <point x="319.0" y="145.0" />
+      <point x="315.1737297726429" y="145.0" />
+      <point x="17.090909090909065" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.repository.CounterRepositoryTest" target="com.vanhack.energyconsumption.web.EachVillageReport">
+      <point x="0.0" y="-14.5" />
+      <point x="1528.4711538461538" y="390.0" />
+      <point x="1555.3133576568357" y="390.0" />
+      <point x="1555.3133576568357" y="95.0" />
+      <point x="1064.6960685449817" y="95.0" />
+      <point x="121.66666666666652" y="37.5" />
+    </edge>
+    <edge source="com.vanhack.energyconsumption.service.ConsumptionReportServiceUnitTest" target="com.vanhack.energyconsumption.repository.VillageRepository">
+      <point x="-30.0" y="-14.5" />
+      <point x="974.3133576568357" y="565.0" />
+      <point x="236.0" y="565.0" />
+      <point x="236.0" y="410.0" />
+      <point x="531.7500000000001" y="410.0" />
+      <point x="-41.25" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="1010.5" y="269.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

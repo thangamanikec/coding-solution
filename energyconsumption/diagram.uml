@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="120.0">com.vanhack.energyconsumption.web.EachVillageReport</node>
+    <node x="238.0" y="606.0">com.vanhack.energyconsumption.repository.VillageRepositoryTest</node>
+    <node x="0.0" y="458.0">com.vanhack.energyconsumption.service.ConsumptionReportServiceIntegrationTest</node>
+    <node x="0.0" y="360.0">com.vanhack.energyconsumption.service.ConsumptionReportService</node>
+    <node x="0.0" y="0.0">com.vanhack.energyconsumption.web.ConsumptionReportController</node>
+    <node x="315.0" y="532.0">com.vanhack.energyconsumption.EnergyconsumptionApplication</node>
+    <node x="0.0" y="240.0">com.vanhack.energyconsumption.web.CounterDetails</node>
+    <node x="480.0" y="240.0">com.vanhack.energyconsumption.domain.Counter</node>
+    <node x="0.0" y="532.0">com.vanhack.energyconsumption.service.ConsumptionReportServiceUnitTest</node>
+    <node x="442.0" y="360.0">com.vanhack.energyconsumption.web.ConsumptionReports</node>
+    <node x="0.0" y="680.0">com.vanhack.energyconsumption.repository.VillageRepository</node>
+    <node x="0.0" y="606.0">com.vanhack.energyconsumption.repository.CounterRepositoryTest</node>
+    <node x="247.0" y="240.0">com.vanhack.energyconsumption.domain.Village</node>
+    <node x="476.0" y="606.0">com.vanhack.energyconsumption.repository.CounterRepository</node>
+    <node x="337.0" y="120.0">com.vanhack.energyconsumption.EnergyConsumptionException</node>
+    <node x="364.0" y="458.0">com.vanhack.energyconsumption.EnergyconsumptionApplicationTests</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="130.5" y="52.0" />
+  <SelectedNodes>
+    <node>com.vanhack.energyconsumption.service.ConsumptionReportServiceIntegrationTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
