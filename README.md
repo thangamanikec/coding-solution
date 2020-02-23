@@ -35,4 +35,6 @@ Attached few REST API calls with the project which can be imported and can be hi
 5. To Find the Energy Consumption of Each Village for past 24 hrs
 
 
-Note : The final accomplished Class Diagram and Domain Diagram is attached with this project for review and Application URL: localhost:8080 needs to be hit using Postman client
+Note : The final accomplished Class Diagram and Domain Diagram is attached with this project for review 
+
+Application URL- localhost:8080 needs to be hit using Postman client
